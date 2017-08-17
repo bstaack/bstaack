@@ -9,3 +9,7 @@ body,h1,h2,h3,h4,h5 {
 .w3-third img:hover{
   opacity: 1;
 }
+
+.portfolio img{
+  border: 1px solid white;
+}
