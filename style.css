@@ -1,15 +1,30 @@
 body,h1,h2,h3,h4,h5 {
   font-family: "Raleway", sans-serif;
 }
-.w3-third img{
+.w3-col img{
   margin-bottom: -6px;
   opacity: 0.8;
   cursor: pointer;
+  border: 1px solid white;
 }
-.w3-third img:hover{
+.w3-col img:hover{
   opacity: 1;
 }
 
-.portfolio img{
-  border: 1px solid white;
+.skills img{
+  margin: 5px;
+}
+
+footer a{
+  margin: 0 1em 0 2em;
+}
+
+footer a:hover{
+  color: blue;
+}
+
+@media screen and (max-width: 600px){
+  footer a{
+    margin: 0 .5em 0 1em;
+  }
 }
