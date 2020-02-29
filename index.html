@@ -119,8 +119,9 @@
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>contact me</b></h4>
       <p>if you would like to work with me, or just chat ... you know what to do...</p>
-      <form name="contact" netlify>
+      <form name="contact" netlify-honeypot="phone" netlify>
         <div class="w3-section">
+          <input type="hidden" name="phone" >
           <label>name</label>
           <input class="w3-input w3-border" type="text" name="Name" required>
         </div>
@@ -134,22 +135,6 @@
         </div>
         <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">godspeed</button>
       </form>
-
-      <!-- <form method="POST" action="https://formspree.io/bsta520@gmail.com">
-        <div class="w3-section">
-          <label>name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
-        </div>
-        <div class="w3-section">
-          <label>email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
-        </div>
-        <div class="w3-section">
-          <label>message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
-        </div>
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">godspeed</button>
-      </form> -->
 
     </div>
   </div>
